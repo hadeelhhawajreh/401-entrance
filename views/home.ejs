@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('./layout/head') %>
+
+</head>
+
+<body>
+    <header>
+        <%- include('./layout/header')%>
+    </header>
+    <div class="container">
+
+        <div>
+
+            <figure> <img src="gryffindor.png" height="200px" width="200px" alt=" img1"> <br><br><br>
+                <figcaption><a style="color: #901215; font-weight: 100; text-decoration: none; font-size: 20px; margin-left: 50px;"
+                        href="/house/gryffindor">gryffindor</a> </figcaption>
+            </figure>
+
+        </div>
+        <div>
+            <figure> <img src="hufflepuff.png" height="200px" width="200px" alt=""> <br><br><br>
+                <figcaption> <a href="/house/hufflepuff"
+                style="color: #f5aa2b; text-decoration: none; font-weight: 100; font-size: 20px; margin-left: 50px;">hufflepuff</a>
+            </figure>
+        </div>
+        <div>
+            <figure> <img src="ravenclaw.png" height="200px" width="200px" alt=""><br><br><br>
+                <a href="/house/ravenclaw" style="color: #014a71;  font-weight: 100; text-decoration: none; font-size: 20px; margin-left: 50px;">ravenclaw</a> </figure>
+
+        </div>
+        <div>
+            <figure>  <img src="slytherin.png" height="200px" width="200px" alt=""><br><br><br>
+           <figcaption> <a href="/house/slytherin" style="color: #1e7553; font-weight: 100; text-decoration: none; font-size: 20px; margin-left: 50px;">slytherin</a></figcaption>
+            </figure>
+
+        </div>
+    </div>
+
+    <p hidden ><%= msg%> </p>
+
+
+    <footer>
+        <%- include('./layout/footer')%>
+    </footer>
+</body>
+
+</html>

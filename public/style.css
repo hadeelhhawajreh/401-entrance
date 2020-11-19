@@ -1,0 +1,97 @@
+*{
+    font-family: "Crimson Text", serif;
+}
+
+/* 
+ Color Schema:
+    Header, footer and cards backgrounds : #873436;
+    Text: #ffffff;
+    gryffindor colors: #901215, #f5aa2b
+    ravenclaw colors: #014a71, #cd7f32
+    slytherin colors: #1e7553, #C0C0C0
+    hufflepuff colors: #f5aa2b, #000000
+*/
+body {
+    top: 0%;
+  
+  }
+  
+  label, input {
+    margin: 10px;
+  }
+  
+  
+  .container{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      padding: 10px;
+  }
+  
+  .house{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    
+  }
+  .char{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+  }
+  ul{   
+    position: absolute;
+    top: 50px;
+    right: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-sizing: border-box;
+  }
+  ul li{
+      list-style: none;
+      display: inline;
+     
+  }
+  li a{
+      color: white;
+      font-size: 30px;
+      text-decoration: none;
+      float: right;
+      padding: 15px;
+      box-sizing: border-box;
+      margin-left: 100px;
+
+  }
+  footer{
+    background-color: #873436;
+    height:  100px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top:100px;
+  }
+  .color{
+    color: #f5aa2b;
+  }
+  .color2{
+    color: white;
+    text-align: center;
+
+  }
+  .divd{
+    margin-top: 65px;
+
+  }
+  input[type=text]{
+    width: 740px;
+    margin-right: 150px;
+    height: 31px;
+  }
+  label{
+    text-align: center;
+    margin-left: 300px;
+    color: white;
+  }
+  .btn{
+    margin-left: 300px;
+  }

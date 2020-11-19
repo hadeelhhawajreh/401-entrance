@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <%- include('./layout/head') %>
+    
+    </head>
+
+<body>
+    <header>
+        <%- include('./layout/header')%>
+    </header>
+<div class="house">
+
+
+    <% house.forEach(ele =>{%>
+        <div style="padding: 5px;">
+    <div style="width:300px; height: 500px; background-color: #901215; padding:50px;">
+       <div style="padding:10px;  text-align: center; box-sizing: border-box;">
+        <img  src="<%= ele.image%>" alt="image" height="300px">
+       <div class="divd">
+            <p class="color"> name: <%= ele.name%></p>
+        <p class="color">patronus: <%= ele.patronus%></p>
+        <p class="color"> alive:<%= ele.alive%></p>
+        <form action="/my-character" method="POST">
+            <p hidden> <%= ele.image%></p>
+            <input hidden type="text" name="name" value="<%= ele.name%>">
+            <input hidden type="text" name="patronus" value="<%= ele.patronus%>">
+            <input hidden type="text" name="alive" value="<%= ele.alive%>">
+            <input style="width: 180px; height:30px; padding: 5px; background-color: #901215; color: white; border-color: white;"  type="submit" value="save character to database">
+        </form></div>
+    </div>
+    </div>
+</div>
+    <% });%>
+</div>
+ <footer>
+        <%- include('./layout/footer')%>
+    </footer>
+</body>
+
+</html>

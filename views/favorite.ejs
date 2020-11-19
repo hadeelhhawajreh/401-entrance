@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <%- include('./layout/head') %>
+    
+    </head>
+<body> 
+    <header>
+        <%- include('./layout/header')%>
+    </header>
+<h1>My Characters</h1>
+<div class="char">
+
+
+    <% dataAll.forEach((ele,i) =>{%>
+        <div style="padding: 25px;">
+        <div style="width:500px;height: 170px; background-color: #873436;">
+           <div  style="padding: 5px;">
+            <p class="color2"> name: <%= ele.name%></p>
+            <p class="color2">patronus: <%= ele.patronus%></p>
+            <p class="color2"> alive:<%= ele.alive%></p>
+            <button style="width: 180px; height:30px; margin-left: 150px;  background-color: #873436; color: white; border-color: white;"><a href="/my-character/<%= ele.id%>" style="text-decoration: none; color: white; font-size: 15px;">View Characters</a></button>
+           </div>
+        </div>
+    </div>
+   <% })%>
+</div>
+   <footer>
+    <%- include('./layout/footer')%>
+</footer>
+</body>
+</html>
