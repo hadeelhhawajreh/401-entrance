@@ -4,7 +4,7 @@ Potter API
 ## Overview
 This is the entrance exam for 401 for the 301 d8 and d9 class using the [potter api](https://www.potterapi.com/)
 
-## Exam Requirements:
+##  Requirements:
 - Create a CRUD web application that will respond to the following end points:
    - /home
    Shows the list of houses gryffindor, hufflepuff, ravenclaw, slytherin and renders them in the home page, that when clicked, will view the characters of that house
@@ -65,7 +65,7 @@ You will also need to create the DB tables
 ```sh
 psql -f schema.sql -d potter_api 
 ```
-View the .env.example file to know what you need to work with
+View the .env.ple file to know what you need to work with
 
 ### Helper Commands:
 
@@ -80,8 +80,9 @@ kill -9 `lsof -i:3030 -t`
 
 ## Architecture
 ```sh
-301-d8-d9-entrance-exam
-   ├── cheatsheets
+potter api
+
+├── cheatsheets
       ├── heroku.md
       ├── postgres-shell.md
       ├── sql.md
