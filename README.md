@@ -1,8 +1,6 @@
 Potter API 
 
-
-## Overview
-This is the entrance exam for 401 for the 301 d8 and d9 class using the [potter api](https://www.potterapi.com/)
+ using the [potter api](https://www.potterapi.com/)
 
 ##  Requirements:
 - Create a CRUD web application that will respond to the following end points:
