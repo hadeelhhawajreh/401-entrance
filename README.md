@@ -1,8 +1,4 @@
-# 401-d8-d9-entrance-exam
-Potter API entrance Exam
-
-
-**Authors**: Tamim Hamoudi, Hanaa Maratouq
+Potter API 
 
 
 ## Overview
@@ -29,25 +25,10 @@ This is the entrance exam for 401 for the 301 d8 and d9 class using the [potter 
 
 - deploy your project on heroku 
 
-## Exam Stretch Goals:
+##  Stretch Goals:
    - Styling Colors and images of the houses 
    - Filtering the characters by occupation: staff or student
    - Making your code DRY
-
-## Exam Rules:
-- You are not allowed to view previous code you worked on
-- Any personal notes written are prohibited: 
-   - github gist
-   - notes 
-   - .txt notes 
-   - google sheets ...etc
-   - including paper notes
-- You are allowed to use google for searching
-   - But do not go to sites such as (github.com, bitbucket.com,gitlab.com)
-
-- The only sites allowed from github is this repo that you will be forking into your own account.
-
-- You can make use of the cheatsheets folder 
 
 
 ## Getting Started
